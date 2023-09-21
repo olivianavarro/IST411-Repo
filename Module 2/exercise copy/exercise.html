@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="exercise.css">
+
+
+</head>
+<body>
+  <h2>
+    Doane Volleyball
+  </h2>
+  <p> 
+    GET TO KNOW DOANE VOLLEYBALL
+  </p>
+  <div class="flex-container">
+    <div 
+    
+      class="flex-item"> Link to the roster 2023-2024<br>
+      <a href="https://doaneathletics.com/sports/wvball/2023-24/roster">GO TIGERS!</a> 
+
+    </div>
+
+    <div 
+      class="flex-item">THIS IT'S LAST YEAR'S TEAM<br>
+      <img src="IMG_7958.JPG" style="width:25%;" alt="DOANE VB"> <!-- Why alt is not working!!!s -->
+    </div>
+
+    <div 
+      class="flex-item">A CLIP OF US IN CALIFORNIA
+      <video width="25%"  controls>
+        <source src="point.mp4" type="video/mp4">
+        
+      Your browser does not support the video tag.
+      </video>
+      
+    </div>
+    
+    <div 
+    class="flex-item" id=geolocation-info>Geolocation
+
+    <script>
+      // Check if the Geolocation API is available in the browser
+      if ("geolocation" in navigator) {
+        // Get the geolocation
+        navigator.geolocation.getCurrentPosition(function (position) {
+          const latitude = position.coords.latitude;
+          const longitude = position.coords.longitude;
+    
+          // Display the geolocation information in the fourth cell
+          const geolocationInfo = document.getElementById("geolocation-info");
+          geolocationInfo.innerHTML = `Your current coordinates are:<br>Latitude: ${latitude}<br>Longitude: ${longitude}`;
+        });
+      } else {
+        // If Geolocation API is not available, display an error message
+        const geolocationInfo = document.getElementById("geolocation-info");
+        geolocationInfo.innerHTML = "Geolocation is not supported in your browser.";
+      }
+    </script>
+    
+
+    </div>
+  </div>
+
+
+  
+
+
+</body>
+</html>

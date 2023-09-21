@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<head>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tigerbyte.css">
+    <title>Doane Volleyball</title>
+</head>
+<body>
+    <header class="top-bar">
+        <div class="logo">
+            <img src="tigerlogo2.webp" alt="Tiger's Logo" width="100px">
+            
+        </div>
+        
+        <h2>
+            Doane Volleyball
+          </h2>
+        
+        <nav class="navigation">
+            
+            <ul>
+                <li><a href="https://www.doane.edu/">Home</a></li>
+                <li><a href="https://www.doane.edu/">Login</a></li>
+                <li><a href="https://www.doane.edu/">Help</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main class="content-area">
+        <section class="store-tagline" style="width:100px">
+                Link to the roster 2023-2024<br>
+                <a href="https://doaneathletics.com/sports/wvball/2023-24/roster">GO TIGERS!
+                </a> 
+              </section>
+        <section class="todays-pick">
+            THIS IT'S LAST YEAR'S TEAM<br>
+      <img src="IMG_7958.JPG" style="width:100px;" alt="DOANE VB">
+        </section>
+        <section class="recent-arrivals" >Clip of us in California<br>
+            <video style="width: 100%"  controls>
+                <source src="point.mp4" type="video/mp4">
+                
+              Your browser does not support the video tag.
+              </video>
+        </section>
+        <section class="special" id=geolocation-info>Geolocation
+
+            <script>
+              // Check if the Geolocation API is available in the browser
+              if ("geolocation" in navigator) {
+                // Get the geolocation
+                navigator.geolocation.getCurrentPosition(function (position) {
+                  const latitude = position.coords.latitude;
+                  const longitude = position.coords.longitude;
+            
+                  // Display the geolocation information in the fourth cell
+                  const geolocationInfo = document.getElementById("geolocation-info");
+                  geolocationInfo.innerHTML = `Your current coordinates are:<br>Latitude: ${latitude}<br>Longitude: ${longitude}`;
+                });
+              } else {
+                // If Geolocation API is not available, display an error message
+                const geolocationInfo = document.getElementById("geolocation-info");
+                geolocationInfo.innerHTML = "Geolocation is not supported in your browser.";
+              }
+            </script>
+            
+        </section>
+    </main>
+    
+    <footer class="bottom-bar">
+        <div class="contact-info">
+            <h2>
+                Contact us!
+              </h2>
+              Jenna Jones (Head Coach)<br>
+
+                Email: jenna.jones@doane.edu<br>
+
+                Phone: 402-826-6732
+        </div>
+        <div class="logo">
+            <img src="Homelogo.png" alt="Tiger's Logo" width="90%">
+            
+        </div>
+        <div class="map">
+            <h2>
+                This is where we play!
+              </h2>
+              <iframe
+        width="100%"
+        height="400"
+        frameborder="0"
+        style="border: 0;"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2998.2481417453885!2d-96.9532210845804!3d40.62644054354902!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87971f241ed65001%3A0x6925ff350d7ffd75!2sHaddix%20Rec%20Center%2FBasketball!5e0!3m2!1sen!2sus!4v1667410456789!5m2!1sen!2sus"
+        allowfullscreen>
+    </iframe>
+        </div>
+    </footer>
+</body>
+</html>
