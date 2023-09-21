@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="survey.css">
+  
+  
+ 
+
+</head>
+<body>
+  
+
+  <h1>
+    Volleyball - Survey Form
+  </h1>
+  <form>
+    <label for = "name"> Full Name: </label><br>
+    <input type="text" id="name" name= "name" required><br>
+
+    <br><label for = "position"> Position: </label><br>
+    <select type='dropdown' id="postion" name= "position" required>
+      <option value = "SO" >Select an option</option>
+      <option value = "MB" >Middle Blocker</option>
+      <option value = "L" >Libero</option>
+      <option value = "OH" >Outside Hitter</option>
+      <option value = "RH" >Ride-side Hitter</option>
+      <option value = "DS" >Defense Specialist</option><br>
+
+    </select>
+
+      <br><br><label for = "grade"> Grade: </label><br>
+      <input type="radio" id="freshman" name= "grade">
+      <label for="freshman">Freshman</label> <br>
+
+      <input type="radio" id="sophomore" name= "grade">
+      <label for="freshman">Sophomore</label> <br>
+
+      <input type="radio" id="junior" name= "grade">
+      <label for="junior">Junior</label> <br>
+
+      <input type="radio" id="senior" name= "grade">
+      <label for="senior">Senior</label> <br>
+
+
+
+
+      <br><label for = "state"> Check the states you pleayed in: </label><br>
+      <input type="checkbox" id="nebraska" name= "state">
+      <label for="nebraska">Nebraska</label> <br>
+
+      <input type="checkbox" id="colorado" name= "state">
+      <label for="freshman">Colorado</label> <br>
+
+      <input type="checkbox" id="missouri" name= "state">
+      <label for="junior">Missouri</label> <br>
+
+      <input type="checkbox" id="kansas" name= "state">
+      <label for="kansas">Kansas</label> <br>
+
+      <br><label for="experience" >Write your best volleyball experience:</label><br>
+      <textarea id="experience" name="experience" rows="8" cols="50"></textarea>
+      
+
+      <br><button type="submit" onclick="submition()">Submit</button>
+      
+        
+
+
+  </form>
+
+  <script>
+    function submition(){
+      var nameInput = document.getElementById("name");
+      
+      if(nameInput.value =="" ){
+        alert("Please enter your name before submitting.");
+        return false;
+      }
+      else{
+        alert("Thank you for submitting the survey!");
+      }
+      
+      
+      
+    }
+  </script>
+  
+  
+
+</body>
+</html>
