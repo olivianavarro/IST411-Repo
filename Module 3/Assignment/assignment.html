@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content ="width=device-width, initial-scale=1.0">
+  <title> Module 3 Exercise - Javascript Sampling</title>
+
+  <link rel="stylesheet" href="assignment.css">
+  <script src="assignment.js"></script>
+</head>
+<body>
+  <h1> Palindrome Checker</h1>
+  <div class="flexboxRow">
+    <div class="flexboxColumn">
+      <h2>Form to obtain a word and check if it is a plalindrome </h2>
+      <form name="form"> 
+        Word to check: <input type="text" name="word" value=""><br/>
+        Algorthim 1, 2 or 3?: <input type="number" name="number" value=""><br/><br/>
+        <input type="button" value="Add to list" onclick="validateANDAdd()">
+      </form>  
+    </div>
+
+    <div class="flexboxColumn">
+      <h2>Algorithm 1</h2>
+      <table id="algorithm1">
+      </table>
+      <br/><br/>
+      <input type="button" value="clear the list" onclick="clearList1()">
+    </div>
+
+    <div class="flexboxColumn">
+      <h2>Algorithm 2</h2>
+      <table id="algorithm2">
+      </table>
+      <br/><br/>
+      <input type="button" value="clear the list" onclick="clearList2()">
+    </div>
+
+    <div class="flexboxColumn">
+      <h2>Algorithm 3</h2>
+      <table id="algorithm3">
+      </table>
+      <br/><br/>
+      <input type="button" value="clear the list" onclick="clearList3()">
+    </div>
+  
+  </div>
+</body>
+    
