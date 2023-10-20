@@ -1,97 +1,61 @@
-/* Reset some default browser styles */
-body, h1, h2, p, ul {
+/* Reset default margin and padding */
+* {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Apply basic styling to the body and header */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+}
+
+.header {
+  background-color: #333;
+  color: #fff;
   padding: 20px;
   text-align: center;
 }
 
-/* Define overall styling */
-body {
-  font-family: Arial, sans-serif;
-  background-color: #FFF3E2; /* Light orange background */
-  color: #333; /* Dark text color */
+.header h2 {
+  margin: 0;
 }
 
-/* Media query for screens with a maximum width of 768px */
-@media screen and (max-width: 768px) {
-  .flex-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  
-  .flex-item {
-    flex-basis: calc(50% - 20px); /* Two cells per row with some spacing */
-    margin: 10px;
-  }
-}
-
-/* Media query for screens with a maximum width of 1024px */
-@media screen and (max-width: 1024px) {
-  .flex-container {
-    flex-direction: row; /* Change back to row layout */
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  
-  .flex-item {
-    flex-basis: calc(50% - 20px); /* Two cells per row with some spacing */
-    margin: 10px;
-  }
-}
-
-/* Style the top bar */
-.top-bar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #FFA54A; /* Orange top bar */
-  padding: 10px 20px;
-}
-
-.navigation ul {
-  list-style: none;
-  display: flex;
-}
-
-.navigation li {
-  margin-right: 20px;
-}
-
-.navigation a {
-  text-decoration: none;
-  color: #333; /* Dark text color */
-}
-
-/* Style the content area */
-.content-area {
+/* Main content area */
+.content {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  text-align: center;
-  padding: 20px;
+  margin: 20px;
 }
 
-.store-tagline,
-.todays-pick,
-.recent-arrivals,
-.special {
-  flex: 1;
-  min-width: 250px;
-  max-width: 400px;
+/* Each box in the content area */
+.box {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 20px;
   margin: 10px;
-  padding: 20px;
-  background-color: #FFF; /* White content background */
-  border: 1px solid #DDD; /* Light gray border */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  flex: 1;
+  min-width: 300px;
+  max-width: 100%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-/* Style the bottom bar */
-.bottom-bar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #FFA54A; /* Orange bottom bar */
-  color: #333; /* Dark text color */
-  padding: 10px 20px;
+/* Media queries for responsiveness */
+@media (max-width: 900px) {
+  .content {
+    justify-content: space-between;
+  }
+
+  .box {
+    flex-basis: calc(50% - 20px);
+  }
+}
+
+@media (max-width: 600px) {
+  .box {
+    flex-basis: 100%;
+  }
 }
