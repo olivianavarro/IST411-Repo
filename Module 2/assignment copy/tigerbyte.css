@@ -1,44 +1,5 @@
-/* Reset some default browser styles */
-body, h1, h2, p, ul {
-  margin: 0;
-  padding: 20px;
-  text-align: center;
-}
 
-/* Define overall styling */
-body {
-  font-family: Arial, sans-serif;
-  background-color: #FFF3E2; /* Light orange background */
-  color: #333; /* Dark text color */
-}
 
-/* Media query for screens with a maximum width of 768px */
-@media screen and (max-width: 768px) {
-  .flex-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  .flex-item {
-    flex-basis: calc(50% - 20px); /* Two cells per row with some spacing */
-    margin: 10px;
-  }
-}
-
-/* Media query for screens with a maximum width of 1024px */
-@media screen and (max-width: 1024px) {
-  .flex-container {
-    flex-direction: row; /* Change back to row layout */
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  .flex-item {
-    flex-basis: calc(50% - 20px); /* Two cells per row with some spacing */
-    margin: 10px;
-  }
-}
 
 /* Style the top bar */
 .top-bar {
@@ -64,27 +25,6 @@ body {
 }
 
 /* Style the content area */
-.content-area {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  text-align: center;
-  padding: 20px;
-}
-
-.store-tagline,
-.todays-pick,
-.recent-arrivals,
-.special {
-  flex: 1;
-  min-width: 250px;
-  max-width: 400px;
-  margin: 10px;
-  padding: 20px;
-  background-color: #FFF; /* White content background */
-  border: 1px solid #DDD; /* Light gray border */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
-}
 
 /* Style the bottom bar */
 .bottom-bar {
@@ -94,4 +34,46 @@ body {
   background-color: #FFA54A; /* Orange bottom bar */
   color: #333; /* Dark text color */
   padding: 10px 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+.flexrow {
+  display: flex;
+  flex-wrap: wrap;
+  
+  
+}
+
+
+
+.flexcol {
+  float: left;
+  width: 25%;
+  padding: 20px;
+  
+}
+
+/* Clear floats after the columns */
+.flexrow:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* On screens that are 992px wide or less, go from four columns to two columns */
+@media screen and (max-width: 992px) {
+  .flexcol {
+    width: 50%;
+  }
+}
+
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .flexcol {
+    width: 100%;
+  }
 }
