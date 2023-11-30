@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/olivianavarro/Desktop/CMP 411 - Front-End Development/IST411 Repo copy/Module 6/MusicApi/MusicApi.csproj": {}
+    "/Users/olivianavarro/Desktop/CMP 411 - Front-End Development/IST411 Repo copy/Module 6/assignment/MusicApi/MusicApi.csproj": {}
   },
   "projects": {
-    "/Users/olivianavarro/Desktop/CMP 411 - Front-End Development/IST411 Repo copy/Module 6/MusicApi/MusicApi.csproj": {
+    "/Users/olivianavarro/Desktop/CMP 411 - Front-End Development/IST411 Repo copy/Module 6/assignment/MusicApi/MusicApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/olivianavarro/Desktop/CMP 411 - Front-End Development/IST411 Repo copy/Module 6/MusicApi/MusicApi.csproj",
+        "projectUniqueName": "/Users/olivianavarro/Desktop/CMP 411 - Front-End Development/IST411 Repo copy/Module 6/assignment/MusicApi/MusicApi.csproj",
         "projectName": "MusicApi",
-        "projectPath": "/Users/olivianavarro/Desktop/CMP 411 - Front-End Development/IST411 Repo copy/Module 6/MusicApi/MusicApi.csproj",
+        "projectPath": "/Users/olivianavarro/Desktop/CMP 411 - Front-End Development/IST411 Repo copy/Module 6/assignment/MusicApi/MusicApi.csproj",
         "packagesPath": "/Users/olivianavarro/.nuget/packages/",
-        "outputPath": "/Users/olivianavarro/Desktop/CMP 411 - Front-End Development/IST411 Repo copy/Module 6/MusicApi/obj/",
+        "outputPath": "/Users/olivianavarro/Desktop/CMP 411 - Front-End Development/IST411 Repo copy/Module 6/assignment/MusicApi/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/olivianavarro/.nuget/NuGet/NuGet.Config"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "d2R0wy3IcfSMpXPHx9E904NOAhvbp3hTJPpNc0kBI0rLVd6caATMlIIk+wXRsrmReaYU7czPyKP17Ac1IlvtJw==",
+  "dgSpecHash": "kPqjFO9TSi6P9FYN4Rsx0jseWIgDk3wXOnJQaoeIuLeuYoGdIJUtIpjJjah2siR3sxBmawabQT2OM8SPHLB7Vg==",
   "success": true,
-  "projectFilePath": "/Users/olivianavarro/Desktop/CMP 411 - Front-End Development/IST411 Repo copy/Module 6/MusicApi/MusicApi.csproj",
+  "projectFilePath": "/Users/olivianavarro/Desktop/CMP 411 - Front-End Development/IST411 Repo copy/Module 6/assignment/MusicApi/MusicApi.csproj",
   "expectedPackageFiles": [
     "/Users/olivianavarro/.nuget/packages/azure.core/1.25.0/azure.core.1.25.0.nupkg.sha512",
     "/Users/olivianavarro/.nuget/packages/azure.identity/1.7.0/azure.identity.1.7.0.nupkg.sha512",
