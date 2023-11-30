@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "Hash": "xOsxEQ7hQp0Bvfb/2HMYSWZstBU9XH7jxoaLmF9rqfM=",
+  "Source": "MusicApi",
+  "BasePath": "_content/MusicApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "MusicApi/wwwroot",
+      "Source": "MusicApi",
+      "ContentRoot": "/Users/olivianavarro/Downloads/MusicApi/wwwroot/",
+      "BasePath": "_content/MusicApi",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/Users/olivianavarro/Downloads/MusicApi/wwwroot/css/site.css",
+      "SourceId": "MusicApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/olivianavarro/Downloads/MusicApi/wwwroot/",
+      "BasePath": "_content/MusicApi",
+      "RelativePath": "css/site.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/site.css"
+    },
+    {
+      "Identity": "/Users/olivianavarro/Downloads/MusicApi/wwwroot/index.html",
+      "SourceId": "MusicApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/olivianavarro/Downloads/MusicApi/wwwroot/",
+      "BasePath": "_content/MusicApi",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/index.html"
+    },
+    {
+      "Identity": "/Users/olivianavarro/Downloads/MusicApi/wwwroot/js/site.js",
+      "SourceId": "MusicApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/olivianavarro/Downloads/MusicApi/wwwroot/",
+      "BasePath": "_content/MusicApi",
+      "RelativePath": "js/site.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/site.js"
+    }
+  ]
+}
